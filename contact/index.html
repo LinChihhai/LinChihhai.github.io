@@ -372,45 +372,6 @@
 
             
 
-    <div class="reprint" id="reprint-statement">
-        <p class="reprint-tip">
-            <i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;
-            <span>Reprint policy</span>
-        </p>
-        
-            <div class="center-align">
-                <a rel="license noopener" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
-                    <img alt=""
-                         style="border-width:0"
-                         src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
-                </a>
-            </div>
-            <br/>
-            <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
-                  property="dct:title" rel="dct:type">
-                    《contact》
-                </span> by
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/contact/index.html" property="cc:attributionName"
-               rel="cc:attributionURL">
-                Galant
-            </a> is licensed under a
-            <a rel="license noopener" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
-                Creative Commons Attribution 4.0 International License
-            </a> 
-        
-    </div>
-
-    <script async defer>
-      document.addEventListener("copy", function (e) {
-        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
-        M.toast({html: toastHTML})
-      });
-
-      function navToReprintStatement() {
-        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
-      }
-    </script>
-
 
         </div>
     </div>
@@ -482,7 +443,7 @@
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            Galant
+                            LinChihhai
                             
                         </span>
                     </div>
@@ -523,7 +484,7 @@
                         <span class="publish-author">
                             
                             <i class="fa fa-user fa-fw"></i>
-                            Galant
+                            LinChihhai
                             
                         </span>
                     </div>
@@ -566,9 +527,9 @@
         var url = document.location.href;
         newdiv.innerHTML += '<br />'
             + 'From: LinChihhai's Cockpit<br />'
-            + 'Author: Galant<br />'
+            + 'Author: LinChihhai<br />'
             + 'Link: <a href="' + url + '">' + url + '</a><br />'
-            + '作者：Chihhai \nBlog：LinChihhai.github.io \n著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。';
+            + '作者：LinChihhai \nBlog：LinChihhai.github.io \n著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。';
 
         selection.selectAllChildren(newdiv);
         window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
